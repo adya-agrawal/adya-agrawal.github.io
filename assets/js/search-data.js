@@ -18,12 +18,17 @@ ninja.data = [{
           },
         },{id: "nav-art",
           title: "Art",
-          description: "",
+          description: "I enjoy sketching and painting with acrylics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/art/";
           },
-        },{
+        },{id: "art-night-changes",
+          title: 'Night changes',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/sunrise.html";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
