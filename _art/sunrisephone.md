@@ -1,7 +1,7 @@
 ---
-title: "Sunrise Polaroid"
+title: "Miles to go before I sleep"
 image: "sunrise2.png"
 year: 2024
-content: Acrylic on paper.
+content: "Acrylic on paper"
 order: 9
 ---
