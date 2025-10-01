@@ -33,7 +33,7 @@ I am currently working on validating claimed differential privacy guarantees of 
 <b>Prior to starting my PhD, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
 I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vellore Institute of Technology, India in July 2023.
 
-<b> I am broadly interested in enhancing privacy and security in real-world AI systems. I aim to integrate privacy-enhancing technologies (PETs) to protect sensitive data across the model lifecycle, while ensuring that the resulting systems maintain practical utility and accuracy.
+<b> I am broadly interested in enhancing privacy and security in real-world AI systems. I aim to integrate privacy-enhancing technologies (PETs) in distributed systems to protect sensitive data, while maintaining practical utility and accuracy.
 
 <div style="text-align:center">
 <b> 
