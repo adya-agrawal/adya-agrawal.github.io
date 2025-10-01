@@ -30,7 +30,7 @@ latest_posts:
 My research focuses on privacy-preserving machine learning and applied cryptography.
 I am currently working on auditing differentially private mechanisms, with the broader goal of strengthening privacy and security guarantees in real-world AI systems while maintaining practical utility and accuracy.
 
-<b>Before this, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research and the [J.P. Morgan AlgoCRYPT Center of Excellence](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
+<b>Before this, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
 
 <b>I completed my Bachelors of Technology in Computer Science from Vellore Institute of Technology in 2023.
 
