@@ -26,13 +26,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<b>I am a first year PhD student at the [School of Cybersecurity and Privacy](https://scp.cc.gatech.edu/) in the College of Computing at Georgia Tech. My advisor is [Prof. Vassilis Zikas](https://faculty.cc.gatech.edu/~vzikas).
-My research focuses on privacy-preserving machine learning and applied cryptography.
-I am currently working on auditing differentially private mechanisms, with the broader goal of strengthening privacy and security guarantees in real-world AI systems while maintaining practical utility and accuracy.
+<b>I am a first year PhD student in the [College of Computing](https://www.cc.gatech.edu/) at Georgia Tech, where I am advised by [Prof. Vassilis Zikas](https://faculty.cc.gatech.edu/~vzikas).
+My research primarily focuses on privacy-preserving machine learning and applied cryptography.
+I am currently working on validating claimed differential privacy guarantees of a mechanism in a black-box way to ensure fair auditing. 
 
-<b>Before this, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
+<b>Prior to starting my PhD, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
+I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vellore Institute of Technology, India in July 2023.
 
-<b>I completed my Bachelors of Technology in Computer Science from Vellore Institute of Technology in 2023.
+<b> I am broadly interested in enhancing privacy and security in real-world AI systems while maintaining practical utility and accuracy.
 
 <div style="text-align:center">
 <b> 
