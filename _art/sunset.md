@@ -3,5 +3,5 @@ title: "Last Sunset in a City"
 image: "sunset.png"
 link: "https://www.instagram.com/p/CXOhCCAorxa/?utm_source=ig_web_copy_link"
 year: 2024
+content: Acrylic on paper.
 ---
-Acrylic on paper.
