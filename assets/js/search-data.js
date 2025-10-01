@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-art",
           title: "Art",
-          description: "I enjoy sketching and painting with acrylics.",
+          description: "I enjoy painting with acrylics and sketching.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/art/";
