@@ -6,7 +6,7 @@ subtitle: CS PhD student at Georgia Tech
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href="mailto:aagrawal609@gatech.edu">aagrawal609@gatech.edu</a></p>
