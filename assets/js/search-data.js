@@ -33,23 +33,23 @@ ninja.data = [{
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/bookpainting.html";
-            },},{id: "art-dark-academia-girl",
-          title: 'Dark academia girl',
+            },},{id: "art-dark-academia",
+          title: 'Dark academia',
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/librarygirl.html";
-            },},{id: "art-elegant-woman-in-a-saree",
-          title: 'Elegant Woman in a Saree',
+            },},{id: "art-saree-stories",
+          title: 'Saree Stories',
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/sareesketch.html";
-            },},{id: "art-night-changes",
-          title: 'Night changes',
+            },},{id: "art-just-how-fast-the-night-changes",
+          title: 'Just how fast the night changes',
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/sunrise.html";
-            },},{id: "art-sunrise-polaroid",
-          title: 'Sunrise Polaroid',
+            },},{id: "art-miles-to-go-before-i-sleep",
+          title: 'Miles to go before I sleep',
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/sunrisephone.html";
