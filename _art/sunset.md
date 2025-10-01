@@ -1,7 +1,7 @@
 ---
 title: "Last Sunset in a City"
-image: "sunset.png"
-link: "https://www.instagram.com/p/CXOhCCAorxa/?utm_source=ig_web_copy_link"
+image: "sunsetblr.png"
 year: 2024
 content: Acrylic on paper.
+order: 1
 ---
