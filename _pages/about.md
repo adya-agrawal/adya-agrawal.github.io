@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href="mailto:aagrawal609@gatech.edu">aagrawal609@gatech.edu</a></p>
-    <p>Atlanta, Georgia</p>
+    <p>756 W Peachtree St NW</p>
+    <p>Atlanta, Georgia 30308</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
