@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://adya-agrawal.github.io//sitemap.xml
+Sitemap: https://adya-agrawal.github.io/sitemap.xml
