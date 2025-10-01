@@ -23,7 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "art-the-world-is-your-canvas",
+        },{id: "art-achaari-zindagi",
+          title: 'Achaari Zindagi',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/achar.html";
+            },},{id: "art-the-world-is-your-canvas",
           title: 'The world is your canvas',
           description: "",
           section: "Art",handler: () => {
