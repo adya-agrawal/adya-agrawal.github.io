@@ -23,11 +23,46 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/art/";
           },
-        },{id: "art-night-changes",
+        },{id: "art-the-world-is-your-canvas",
+          title: 'The world is your canvas',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/bookpainting.html";
+            },},{id: "art-dark-academia-girl",
+          title: 'Dark academia girl',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/librarygirl.html";
+            },},{id: "art-elegant-woman-in-a-saree",
+          title: 'Elegant Woman in a Saree',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/sareesketch.html";
+            },},{id: "art-night-changes",
           title: 'Night changes',
           description: "",
           section: "Art",handler: () => {
               window.location.href = "/art/sunrise.html";
+            },},{id: "art-sunrise-polaroid",
+          title: 'Sunrise Polaroid',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/sunrisephone.html";
+            },},{id: "art-last-sunset-in-a-city",
+          title: 'Last Sunset in a City',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/sunset.html";
+            },},{id: "art-teary-eye",
+          title: 'Teary Eye',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/tearyeyes.html";
+            },},{id: "art-starry-night-by-van-gogh",
+          title: 'Starry Night by Van Gogh',
+          description: "",
+          section: "Art",handler: () => {
+              window.location.href = "/art/vangogh.html";
             },},{
         id: 'social-email',
         title: 'email',
