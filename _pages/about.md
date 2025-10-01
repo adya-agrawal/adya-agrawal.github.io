@@ -36,14 +36,14 @@ I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vel
 
 <b> I am broadly interested in enhancing privacy and security in real-world AI systems. I aim to integrate privacy-enhancing technologies (PETs) in distributed systems to protect sensitive data, while maintaining practical utility and accuracy.
 
-<div style="text-align:center">
-<b> 
+<div style="text-align:center; margin:15px;">
+  <b> 
     <a href="https://scholar.google.com/citations?user=NAShfsgAAAAJ&hl=en">Google Scholar</a> /
     <a href="https://www.linkedin.com/in/adya-agrawal/">LinkedIn</a> /
     <a href="https://x.com/adya_agrawal4">Twitter</a> /
     <a href="https://github.com/adya-agrawal">Github</a> / 
     <a href="https://medium.com/@adya-agrawal">Medium</a>
-</b>
+  </b>
 </div>
 
 [//]: # (Write your biography here. Tell the world about yourself. Link to your favorite [subreddit]&#40;http://reddit.com&#41;. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.&#41;)
