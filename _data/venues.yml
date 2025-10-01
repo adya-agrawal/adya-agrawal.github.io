@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+ICML:
+  color: "#006A84"
+  url: "https://icml.cc/"
+
+AAMAS:
+  color: "#65A2B1"
+  url: "https://aamas2025.org/"
+
+ICIVC:
+  color: "#477783"
+  url: "https://www.icivc22.scrs.in/"

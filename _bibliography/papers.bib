@@ -1,115 +1,58 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@InProceedings{
+castro2025encryptedllm,
+bibtex_show={true},
+title={Encrypted{LLM}: Privacy-Preserving Large Language Model Inference via {GPU}-Accelerated Fully Homomorphic Encryption},
+author={Leo de Castro and Daniel Escudero and Adya Agrawal and Antigoni Polychroniadou and Manuela Veloso},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=PGNff6H1TV},
+abbr={ICML},
+selected={true},
+code={https://github.com/deescuderoo/transformers},
+pdf={https://openreview.net/pdf?id=PGNff6H1TV},
+website={https://icml.cc/virtual/2025/poster/45395},
+abstract="As large language models (LLMs) become more powerful, the computation required to run these models is increasingly outsourced to a third-party cloud. While this saves clients' computation, it risks leaking the clients' LLM queries to the cloud provider. Fully homomorphic encryption (FHE) presents a natural solution to this problem: simply encrypt the query and evaluate the LLM homomorphically on the cloud machine. The result remains encrypted and can only be learned by the client who holds the secret key. In this work, we present a GPU-accelerated implementation of FHE and use this implementation to benchmark an encrypted GPT-2 forward pass, with runtimes over
+           faster than the CPU baseline. We also present novel and extensive experimental analysis of approximations of LLM activation functions to maintain accuracy while achieving this performance."
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{
+anonymous2024indifferential,
+bibtex_show={true},
+title={Indifferential Privacy: A New Paradigm and Its Applications to Optimal Matching in Dark Pool Auctions},
+author={Antigoni Polychroniadou and T-H. Hubert Chan and Adya Agrawal},
+booktitle={The 24th International Conference on Autonomous Agents and Multi-Agent Systems},
+year={2025},
+url={https://openreview.net/forum?id=YGKL8fKjbd},
+abbr={AAMAS},
+selected={true},
+code={https://github.com/adya-agrawal/idp-darkpool},
+pdf={https://arxiv.org/pdf/2502.13415},
+abstract="Public exchanges like the New York Stock Exchange and NASDAQ act as auctioneers in a public double auction system, where buyers submit their highest bids and sellers offer their lowest asking prices, along with the number of shares (volume) they wish to trade. The auctioneer matches compatible orders and executes the trades when a match is found. However, auctioneers involved in high-volume exchanges, such as dark pools, may not always be reliable. They could exploit their position by engaging in practices like front-running or face significant conflicts of interest—ethical breaches that have frequently resulted in hefty fines and regulatory scrutiny within the financial industry.
+
+          Previous solutions, based on the use of fully homomorphic encryption (Asharov et al., AAMAS 2020), encrypt orders ensuring that information is revealed only when a match occurs. However, this approach introduces significant computational overhead, making it impractical for high-frequency trading environments such as dark pools.
+
+          In this work, we propose a new system based on differential privacy combined with lightweight encryption, offering an efficient and practical solution that mitigates the risks of an untrustworthy auctioneer. Specifically, we introduce a new concept called Indifferential Privacy, which can be of independent interest, where a user is indifferent to whether certain information is revealed after some special event, unlike standard differential privacy. For example, in an auction, it's reasonable to disclose the true volume of a trade once all of it has been matched. Moreover, our new concept of Indifferential Privacy allows for maximum matching, which is impossible with conventional differential privacy."
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{10.1007/978-3-031-31164-2_14,
+bibtex_show={true},
+author="Jain, Samyak
+and Agrawal, Adya
+and Nayak, Swapna Sambhav
+and Kakelli, Anil Kumar",
+editor="Sharma, Harish
+and Saha, Apu Kumar
+and Prasad, Mukesh",
+title="Optimized Static and Dynamic Android Malware Analysis Using Ensemble Learning",
+booktitle="Proceedings of International Conference on Intelligent Vision and Computing (ICIVC 2022)",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="165--179",
+abbr={ICIVC},
+abstract="As the dominant operating system for mobile devices, Android is the prime target of malicious attackers. Installed Android applications provide an opportunity for attackers to bypass the system's security. Therefore, it is vital to study and evaluate Android applications to effectively identify harmful applications. Android applications are analyzed by conventional methods using signature hash-based algorithms or static features-based machine learning approaches. This research proposes optimized ensemble classification models for Android applications. Ensemble models have been trained for both static and dynamic analysis using seven and eight distinct classifiers respectively. These models have been optimized by tuning their hyper-parameters and evaluated using K-fold cross-validation. We were able to acquire an F1 score of 99.27{\%} and an accuracy of 99.47{\%} for static analysis and our dynamic analysis model yielded an F1 score of 96.96{\%} and an accuracy of 96.66{\%}. Our proposed approach overcomes conventional solutions by taking into account both static and dynamic analysis and attaining high accuracy with the help of ensemble models.",
+isbn="978-3-031-31164-2"
 }
