@@ -1,6 +1,6 @@
 ---
 title: "Sunset Overdrive"
-image: "/assets/art/sunrise.jpg"
+image: "/assets/img/art/sunrise.jpg"
 link: "https://www.instagram.com/p/CXOhCCAorxa/?utm_source=ig_web_copy_link"
 year: 2024
 ---
