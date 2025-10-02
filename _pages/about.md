@@ -36,9 +36,7 @@ I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vel
 
 <b> I am broadly interested in enhancing privacy and security in real-world AI systems. I aim to integrate privacy-enhancing technologies (PETs) in distributed systems to protect sensitive data, while maintaining practical utility and accuracy.
 
-
-
-<div style="text-align:center;">
+<div style="text-align:center; padding=1em;">
   <b> 
     <a href="https://scholar.google.com/citations?user=NAShfsgAAAAJ&hl=en">Google Scholar</a> /
     <a href="https://www.linkedin.com/in/adya-agrawal/">LinkedIn</a> /
