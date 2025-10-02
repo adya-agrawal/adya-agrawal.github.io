@@ -2,6 +2,6 @@
 title: "Achaari Zindagi"
 image: "stilllife.png"
 year: 2020
-content: "Acrylic on canvas"
+medium: "Acrylic on canvas"
 order: 4
 ---
