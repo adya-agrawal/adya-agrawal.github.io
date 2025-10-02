@@ -12,19 +12,25 @@ layout: default
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
   {% assign sorted_pieces = site.art | sort: 'order' %} <!-- Sort by 'order' field -->
   {% for piece in sorted_pieces %}
-    <div style="background:#fff; border:1px solid #e5e5e5; border-radius:12px; overflow:hidden;
-                box-shadow:0 2px 6px rgba(0,0,0,0.1); transition: transform 0.2s;
-                display:flex; flex-direction:column; height:350px;">
-      <div style="width:100%; height:300px; overflow:hidden;">
+    <div style="background-color: var(--global-card-bg-color);
+                border-radius: 12px;
+                overflow: hidden;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+                transition: transform 0.2s;
+                display: flex;
+                flex-direction: column;
+                height: 350px;">
+      <div style="width: 100%; height: 300px; overflow: hidden;">
         {% assign image_path = piece.image | prepend: '/assets/img/art/' %}
         {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
         <img src="{{ image_path }}" alt="{{ piece.title }}" class="img-fluid z-depth-1 rounded"
-             sizes="{{ sizes }}" loading="eager" style="width:100%; height:100%; object-fit:cover;">
+             sizes="{{ sizes }}" loading="eager"
+             style="width: 100%; height: 100%; object-fit: cover;">
       </div>
-      <div style="padding:5px; text-align:center; flex-grow:1; display:flex; flex-direction:column; justify-content:center;">
-        <h3 style="margin:0; font-size:1em; font-weight:bold;">{{ piece.title }}</h3>
-        <p style="margin:5px; font-size:0.8em; font-weight:bold; color:#666;">{{ piece.year }}</p>
-        <p style="font-size:0.8em; font-weight:bold;">{{ piece.content | markdownify }}</p>
+      <div style="padding: 5px; text-align: center; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
+        <h3 style="margin: 0; font-size: 1em; color: var(--global-text-color);">{{ piece.title }}</h3>
+        <p style="margin: 5px; font-size: 0.8em; color: var(--global-text-color-light);">{{ piece.year }}</p>
+        <p style="font-size: 0.8em; color: var(--global-text-color);">{{ piece.content }}</p>
       </div>
     </div>
   {% endfor %}
