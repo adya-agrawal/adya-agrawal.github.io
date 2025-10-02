@@ -24,19 +24,19 @@ layout: default
                 display: flex;
                 flex-direction: column;
                 height: 350px;">
-      <div style="width: 100%; height: 315px; overflow: hidden;">
+      <div style="width: 100%; height: 325px; overflow: hidden;">
         {% assign image_path = piece.image | prepend: '/assets/img/art/' %}
         {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
         <img src="{{ image_path }}" alt="{{ piece.title }}" class="img-fluid z-depth-1 rounded"
              sizes="{{ sizes }}" loading="eager"
              style="width: 100%; height: 100%; object-fit: cover;">
       </div>
-      <div style="padding: 3px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
+      <div style="padding: 5px; flex-grow: 1; display: flex; flex-direction: column; justify-content: center;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
-          <h3 style="margin: 0; font-size: 1em; font-weight: bold; color: var(--global-text-color-light); text-align: left;">{{ piece.title }}</h3>
-          <p style="margin: 0; font-size: 0.8em; font-weight: bold; color: var(--global-text-color-light); text-align: right;">{{ piece.year }}</p>
+          <h3 style="margin: 0; font-size: 0.8em; font-weight: bold; color: var(--global-text-color-light); text-align: left;">{{ piece.title }}</h3>
+          <p style="margin: 0; font-size: 0.5em; font-weight: bold; color: var(--global-text-color-light); text-align: right;">{{ piece.year }}</p>
           </div>
-        <p style="margin: 0; font-size: 0.8em; font-weight: bold; color: var(--global-theme-color); text-align: left;">{{ piece.medium }}</p>
+        <p style="margin: 0; font-size: 0.5em; font-weight: bold; color: var(--global-theme-color); text-align: left;">{{ piece.medium }}</p>
       </div>
     </div>
   {% endfor %}
