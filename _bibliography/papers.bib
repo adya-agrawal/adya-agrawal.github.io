@@ -1,6 +1,37 @@
 ---
 ---
 
+@misc{
+agrawal2026letsaskgaussimproved,
+title={Let's Ask Gauss: Improved One-Run Privacy Auditing},
+author={Adya Agrawal and Yu Wei and Jaspal Singh and Malik Magdon-Ismail and Vassilis Zikas},
+year={2026},
+selected={true},
+eprint={2606.12733},
+archivePrefix={arXiv},
+arxiv={2606.12733},
+primaryClass={cs.LG},
+abbr={Pre-Print},
+note={Submitted to NeurIPS 2026.},
+code={https://github.com/stoneboat/dpsgd-auditbench},
+url={https://arxiv.org/abs/2606.12733},
+abstract={Privacy auditing provides an important safeguard by estimating the actual information leaked by a model, thus ensuring that theoretical privacy guarantees hold in practice. We study empirical privacy auditing for differentially private (DP) machine learning, focusing on efficient one-run methods for mechanisms such as DP-SGD. Prior one-run approaches threshold training examples or "canaries" into binary membership guesses, which discards useful information. We show that, in the white-box DP-SGD setting, canary-aligned signals naturally form a sequence of random variables whose normalized sum is asymptotically Gaussian. Leveraging this distributional perspective, we develop a DP-auditing framework that leads to tighter privacy lower bounds from a single training run.}
+}
+
+@misc{
+cryptoeprint:2026/1239,
+author = {Yu Wei and Jaspal Singh and Adya Agrawal and Vassilis Zikas},
+title = {Balanced Additive Randomized Encodings for Shuffle Differential Privacy},
+howpublished = {Cryptology {ePrint} Archive, Paper 2026/1239},
+selected={true},
+year = {2026},
+abbr = {Pre-Print},
+note = {Presented at TPDP 2026. Submitted to ACM CCS 2026. },
+pdf = {https://eprint.iacr.org/2026/1239.pdf},
+code={https://github.com/stoneboat/shuffle-DP-protocols},
+url = {https://eprint.iacr.org/2026/1239},
+}
+
 @InProceedings{
 castro2025encryptedllm,
 bibtex_show={true},
@@ -27,7 +58,6 @@ booktitle={The 24th International Conference on Autonomous Agents and Multi-Agen
 year={2025},
 url={https://openreview.net/forum?id=YGKL8fKjbd},
 abbr={AAMAS},
-selected={true},
 code={https://github.com/adya-agrawal/idp-darkpool},
 pdf={https://arxiv.org/pdf/2502.13415},
 abstract="Public exchanges like the New York Stock Exchange and NASDAQ act as auctioneers in a public double auction system, where buyers submit their highest bids and sellers offer their lowest asking prices, along with the number of shares (volume) they wish to trade. The auctioneer matches compatible orders and executes the trades when a match is found. However, auctioneers involved in high-volume exchanges, such as dark pools, may not always be reliable. They could exploit their position by engaging in practices like front-running or face significant conflicts of interest—ethical breaches that have frequently resulted in hefty fines and regulatory scrutiny within the financial industry.

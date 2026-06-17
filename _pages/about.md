@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p><a href="mailto:aagrawal609@gatech.edu">aagrawal609@gatech.edu</a></p>
-    <p>756 W Peachtree St NW</p>
-    <p>Atlanta, Georgia 30308</p>
+    <p style="font-size: 0.85em;">756 W Peachtree St NW, Atlanta GA 30308</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -28,8 +27,7 @@ latest_posts:
 ---
 
 <b>I am a first year PhD student in the [College of Computing](https://www.cc.gatech.edu/) at Georgia Tech, where I am advised by [Prof. Vassilis Zikas](https://faculty.cc.gatech.edu/~vzikas).
-My research primarily focuses on privacy-preserving machine learning and applied cryptography.
-I am currently working on validating claimed differential privacy guarantees of a mechanism in a black-box way to ensure fair auditing. 
+My research primarily focuses on privacy-preserving machine learning and applied cryptography. I am currently working on privacy for active learning and recommendation systems. 
 
 <b>Prior to starting my PhD, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
 I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vellore Institute of Technology, India in July 2023.
