@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 <b>I am a first year PhD student in the [College of Computing](https://www.cc.gatech.edu/) at Georgia Tech, where I am advised by [Prof. Vassilis Zikas](https://faculty.cc.gatech.edu/~vzikas).
-My research primarily focuses on privacy-preserving machine learning and applied cryptography. I am currently working on privacy for active learning and recommendation systems. 
+My research primarily focuses on privacy-preserving machine learning and applied cryptography. I am currently researching privacy-preserving retrieval-augmented generation (RAG) and active learning.
 
 <b>Prior to starting my PhD, I was a software engineer at JPMorgan Chase and Co. where I was contributing to research projects with the J.P. Morgan AI Research team, particulary the [AlgoCRYPT COE](https://www.jpmorganchase.com/about/technology/research/ai/algocrypt-center-of-excellence) under the mentorship of [Dr. Antigoni Polychroniadou](https://antigonip.github.io/). 
 I graduated with a Bachelors of Technology (B.Tech) in Computer Science from Vellore Institute of Technology, India in July 2023.
